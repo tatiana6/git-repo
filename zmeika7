@@ -1,0 +1,45 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace змейка1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Point p1 = new Point(1, 1, '@');
+            p1.Draw();
+            
+            Point p2 = new Point(2, 2, '#');
+            p2.Draw();
+
+            Point p3 = new Point(3, 3, '$');
+            p3.Draw();
+            
+            Point p4 = new Point(4, 4, '%');
+            p4.Draw();
+
+            Point p5 = new Point(5, 5, '^');
+            p5.Draw();
+            
+            Point p6 = new Point(6, 6, '&');
+            p6.Draw();
+
+
+
+            HorizontalLine Hline = new HorizontalLine(10, 20, 10,'*');
+            Hline.Draw();
+
+            VertikalLine Vline = new VertikalLine(10, 10, 20, '*');
+            Vline.Draw();
+
+            Console.ReadLine();
+        }
+
+
+
+    }
+}
