@@ -1,2 +1,17 @@
-1 первая правка
-2 вторая правка
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Р·РјРµР№РєР°1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello world");
+            Console.ReadLine();
+        }
+    }
+}
